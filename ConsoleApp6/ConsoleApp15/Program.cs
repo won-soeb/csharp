@@ -62,7 +62,7 @@ class Server
 
         try
         {
-            IPAddress ipAd = IPAddress.Parse("218.52.240.27");
+            IPAddress ipAd = IPAddress.Parse("255.255.255.192");
 
             tcpListener = new TcpListener(ipAd, 5001);
             tcpListener.Start();
