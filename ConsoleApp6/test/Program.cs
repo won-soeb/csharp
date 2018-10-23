@@ -1,4 +1,4 @@
-﻿////#1
+﻿//#1
 //using System;
 
 //namespace test1
@@ -20,7 +20,7 @@
 //    }
 //}
 
-////#2
+//#2
 //using System;
 
 //namespace test2
@@ -43,7 +43,7 @@
 //    }
 //}
 
-////#3
+//#3
 //using System;
 
 //namespace test3
@@ -72,7 +72,7 @@
 //    }
 // }
 
-////#4
+//#4
 //using System;
 //class Rectangle
 //{
@@ -90,7 +90,7 @@
 //    }
 //}
 
-////#5
+//#5
 //using System;
 //using System.Collections.Generic;
 //using System.Linq;
@@ -116,36 +116,28 @@
 //    }
 //}
 
-////#6(보류)
-//using System;
+//#6(보류)
+using System;
 
-//class Prime
-//{
-//    public static void Main()
-//    {
-//        Console.WriteLine("자연수를 하나 입력하세요.");
-//        int num = int.Parse(Console.ReadLine());
-//        int result = 2;
-//        int sosu(int num1)
-//        {
-//            for (int i = 2; i < num1; i++)
-//            {
-//                if (num1 % i == 0)
-//                {
-//                    num1 = 0;
-//                }
-//            }
-//            return num1;
-//        }
-//        for (int i = 3; i <= num; i++)
-//        {
-//            result += sosu(i);
-//        }   
-//        Console.WriteLine("입력한숫자 {0}까지의 소수의 합: {1}", num, result);
-//    }
-//}
+class Prime
+{
+    public static void Main()
+    {
+        Console.WriteLine("자연수를 하나 입력하세요.");
+        int num = int.Parse(Console.ReadLine());
+        int result = 2;
+        int sosu(int mok)
+       
+                
+        for (int i = 2; i <= num; i++)
+        {
+            result += sosu(i);
+        }
+        Console.WriteLine("입력한숫자 {0}까지의 소수의 합: {1}", num, result);
+    }
+}
 
-////#7
+//#7
 //using System;
 
 //namespace tutorialspoint
@@ -198,7 +190,7 @@
 //}
 //}
 
-////#8
+//#8
 //using System;
 
 //public class Customer
@@ -219,7 +211,7 @@
 //    }
 //}
 
-////#9
+//#9
 //using System;
 
 //namespace IndexerApplication
@@ -275,10 +267,10 @@
 //    }
 //}
 
-////#10
+//#10
 //실행결과 : 2
 
-////#11
+//#11
 //실행결과: 
 //2
 //2
@@ -289,7 +281,7 @@
 //2
 //2
 
-////#12
+//#12
 //실행결과: 2 4 6 8 10
 //using System;
 //using System.Linq;
@@ -306,10 +298,10 @@
 //        }
 //}
 
-////#13
+//#13
 //실행결과: Rex Sean Stacy
 
-////#14
+//#14
 //using System;
 
 //class Program
@@ -337,7 +329,7 @@
 //    }
 //}
 
-////#15
+//#15
 //실행결과: 
 //10 10 10 10 10 10 10 10 10 10
 //Press a Key...
@@ -369,7 +361,7 @@
 //    }
 //}
 
-////#16
+//#16
 //using System;
 
 //public delegate void EventHandler();
