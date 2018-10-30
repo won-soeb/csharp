@@ -13,5 +13,6 @@ namespace MvvmExam
             Environment.Exit(0);
             //System.Diagnostics.Process.GetCurrentProcess().Kill();
             //this.Close();
+        }
     }
 }

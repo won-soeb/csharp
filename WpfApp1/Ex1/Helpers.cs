@@ -28,6 +28,10 @@ namespace MvvmExam.Helpers
             add { CommandManager.RequerySuggested += value; }
             remove { CommandManager.RequerySuggested -= value; }
         }
+        public void Execute(object param)
+        {
+            _execute(param);
+        }
         #endregion
     }
 }
